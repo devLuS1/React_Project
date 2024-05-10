@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID
+  apiKey: "AIzaSyB_j2ny1pw52koTEM3s-lW-iCIHUGbB1Mo",
+  authDomain: "snowhome-a0dae.firebaseapp.com",
+  projectId: "snowhome-a0dae",
+  storageBucket: "snowhome-a0dae.appspot.com",
+  messagingSenderId: "835117900786",
+  appId: "1:835117900786:web:a05ab7eeb1d8827943416b"
 };
 
 initializeApp(firebaseConfig);
