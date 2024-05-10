@@ -17,7 +17,7 @@ Snow Home is an elegantly designed e-commerce furniture website developed on Vit
 1.  Clone the repository:
 
 ```bash
-git clone https://github.com/devLuS1/FinalProject_React
+git clone https://github.com/devLuS1/React_Project
 
 ```
 
