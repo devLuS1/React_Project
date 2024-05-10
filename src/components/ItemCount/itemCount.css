@@ -1,0 +1,65 @@
+.itemCount {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.itemCount button {
+    width: 2.4rem;
+    height: 2.4rem;
+    color: #494547;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: none;
+    transition: .2s;
+    background-color: #FDF2E9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.itemCount p {
+    margin: 0% 7%;
+    font-size: 1.3rem;
+}
+
+.addToCart {
+    margin-top: 2%;
+    padding: 1.5% 11%;
+    font-size: 1.05rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #FDF2E9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.addToCart:hover {
+    background-color: white;
+    color: #c69162;
+    border: 2px solid #efc39d;
+}
+
+.clickAddToCart {
+    width: 37%;
+    margin-top: 2%;
+    padding: 1.5% 1%;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    color: #494547;
+    border: 2px solid #666264;
+}
+
+.clickAddToCart:hover {
+    background-color: white;
+    color: #c69162;
+    border: 2px solid #efc39d;
+}

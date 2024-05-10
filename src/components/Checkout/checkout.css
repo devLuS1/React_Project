@@ -1,0 +1,108 @@
+.checkoutContainer {
+    margin: 4% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.checkoutFormContainer {
+    display: grid;
+    grid-template-columns: 55%;
+    margin: -1% 4% 0% 3%;
+}
+
+.checkoutTitle {
+    margin-left: 5%;
+    font-size: 2.2rem;
+    color: #494547;
+}
+
+.checkoutForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3% 0% 4% 5%;
+    align-items: top;
+    gap: 4%;
+}
+
+.checkoutForm input {
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    border: 1px solid black;
+    margin-top: -2%;
+}
+
+.addressDetailsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 0.2%;
+}
+
+.addressDetailsCity {
+    margin-right: 2%;
+}
+
+.addressDetailsState {
+    margin-right: 2%;
+}
+
+.addressDetailsCity label, .addressDetailsState label, .addressDetailsCountry label {
+    margin-bottom: 8%;
+}
+
+.checkoutForm button {
+    margin-top: 2%;
+    padding: 0.9% 5%;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    color: #494547;
+    background-color: #FDF2E9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 55%;
+}
+
+.checkoutForm button:hover {
+    background-color: white;
+    color: #c69162;
+    border: 2px solid #efc39d;
+}
+
+/************Order Generated************/
+
+.orderGenerated {
+    text-align: center;
+    margin: 8% 8%;
+    color: #494547;
+}
+
+.orderGeneratedTitle {
+    margin-bottom: 2%;
+}
+
+.orderGeneratedTitle p {
+    margin-top: -0.5%;
+    margin-bottom: 3%;
+}
+
+.orderGeneratedSubTitle2 {
+    margin-bottom: 4%;
+}
+
+.backHomeButton {
+    padding: 0.9% 5%;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    color: #494547;
+    background-color: #FDF2E9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.backHomeButton:hover {
+    background-color: white;
+    color: #c69162;
+    border: 2px solid #efc39d;
+}

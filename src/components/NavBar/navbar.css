@@ -1,0 +1,54 @@
+.navbar {
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0.8rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #494547;
+    background-color: #FDF2E9;
+}
+
+.icon {
+    width: 70px;
+    height: 68px;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    margin-left: 0.7rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    margin: 0 0.8rem;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid black;
+}
+
+.cartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cartImg {
+    width: 35px;
+    height: 35px;
+    color: #494547;
+}
+
+.cartNumber {
+    font-size: 1.07rem;
+    color: #494547;
+    text-decoration: none;
+}

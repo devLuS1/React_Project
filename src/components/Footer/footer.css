@@ -1,0 +1,32 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 3% 0;
+    background-color: #494547c8;
+}
+
+.footerText {
+    width: 46%;
+    display: flex;
+    gap: 3%;
+    margin-top: 1.3%;
+}
+
+.twitterIcon, .instagramIcon, .pinteresIcon {
+    height: 30px;
+}
+
+.youtubeIcon {
+    height: 30px;
+    width: 36px;
+}
+
+.copyright {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.footerIcon {
+    width: 75px;
+}
